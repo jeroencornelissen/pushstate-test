@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "can-component": "^4.1.2",
+    "can-route-pushstate": "^4.0.5",
+    "can-stache-route-helpers": "^1.0.0",
+    "steal": "^1.12.4",
+    "steal-stache": "^4.1.2"
+  },
+  "steal": {
+    "npmAlgorithm": "flat",
+    "main": "index.js",
+    "lessOptions": {
+      "relativeUrls": false
+    },
+    "plugins": [
+      "steal-stache"
+    ],
+    "transpiler": "babel",
+    "configDependencies": [
+      "live-reload"
+    ]
+  }
+}
